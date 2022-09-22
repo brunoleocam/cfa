@@ -68,17 +68,16 @@ body {
 }
 
 .menu__item {
-    margin: 10px;
+    margin: 0.25em;
     font-size: 18px;
     font-weight: 500;
 }
 
 #free-class {
-    border: 2px solid var(--black);
     background-color: var(--white);
-    padding: 10px;
-    border-radius: 15px;
-    font-size: 20px;
+    padding: 0.5em 0.25em;
+    border-radius: 0.6em;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -87,7 +86,6 @@ body {
 }
 
 #free-class:hover {
-    border: 2px solid var(--black);
     background-color:var(--orange);
     transition: 0.3s all;
 }
@@ -104,7 +102,7 @@ body {
 }
 
 .social-media__item {
-    margin: 2px;
+    margin: 0 2px;
 }
 
 .social-media__icon {
