@@ -6,12 +6,11 @@
     --main-font: 'Inter';
 }
 
-.flex {
-	display: flex;
-}
-
-.flex-wrap {
-	flex-wrap: wrap;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body {
@@ -24,15 +23,8 @@ body {
     margin: 0 auto;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-}
-
 .container {
-    height: 100vh;
+    height: 75vh;
 }
 
 .menu__superior {
