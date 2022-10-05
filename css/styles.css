@@ -2,6 +2,7 @@
     --background-color: #222222;
     --white: #FFFFFF;
     --black: #000000;
+    --grey: #C0C0C0;
     --orange: #FF6512;
     --main-font: 'Inter';
 }
@@ -19,12 +20,10 @@ body {
     font-family: var(--main-font);
     font-size: 16px;
     font-weight: 400;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .container {
-    height: 75vh;
+    height: 100vh;
 }
 
 .menu__superior {
@@ -35,6 +34,8 @@ body {
     height: auto;
     justify-content: space-between;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container__logo img {
@@ -71,6 +72,7 @@ body {
     border-radius: 0.6em;
     font-size: 18px;
     font-weight: 600;
+    
 }
 
 #free-class .menu__item {
@@ -110,3 +112,124 @@ body {
     color: var(--orange);
     transition: 0.3s all;
 }
+
+.principal {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+.principal__agendar {
+    margin: 0 1em;
+}
+
+.principal__agendar p {
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 12px;
+    margin-bottom: 3em;
+}
+
+.principal__agendar h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 10px;
+    font-family: var(--main-font);
+    letter-spacing: 0.1em;
+    margin-bottom: 1em;
+}
+
+.principal__agendar h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 10px;
+    font-family: var(--main-font);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.6em;
+}
+
+.principal__agendar h3 {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 4em;
+}
+
+.principal__agendar span {
+    letter-spacing: 2px;
+    color: var(--orange);
+    font-family: var(--main-font);
+}
+
+.agendar__botao {
+    background-color: var(--orange);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--white);
+    display: block;
+    text-decoration: none;
+    margin: 1em 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.agendar__botao:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.sobre {
+    background-color: var(--orange);
+}
+
+.horarios {
+    background-color: var(--white);
+}
+
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    max-width:160px;
+    max-height:120px;
+    width: auto;
+    height: auto;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--white);
+    margin: 0 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--grey);
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--orange);
+}
+
+.lista__link a:active {
+    color: var(--orange);
+}
+
