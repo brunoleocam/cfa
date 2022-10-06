@@ -69,7 +69,7 @@ body {
 #free-class {
     background-color: var(--white);
     padding: 0.5em 0.25em;
-    border-radius: 0.6em;
+    border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
     
@@ -111,16 +111,6 @@ body {
 .social-media__icon:hover {
     color: var(--orange);
     transition: 0.3s all;
-}
-
-.principal {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 50% 50%;
-    text-align: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: 75vh;
 }
 
 .principal__agendar {
@@ -185,18 +175,19 @@ body {
     color: var(--black);
 }
 
-.sobre {
-    background-color: var(--orange);
+.container__descricao {
+    padding: 2em;
 }
 
-.horarios {
-    background-color: var(--white);
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+    margin-bottom: 0.1em;
 }
 
-
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
+.descricao__texto {
+    color: var(--white);
 }
 
 .rodape__logo {

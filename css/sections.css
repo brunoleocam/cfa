@@ -1,0 +1,97 @@
+@import url("styles.css");
+
+.principal {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 75vh;
+}
+
+.principal__imagem {
+    max-width: 80%;
+}
+
+.sobre {
+    background-color: var(--orange);
+    display: grid;
+}
+
+.container__sobre {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0 10em; 
+}
+
+.sobre__imagem {
+    max-width: 80%;
+    width: auto;
+    height: auto;
+}
+
+.crossfit {
+    background-color: var(--white);
+    display: grid;
+    
+}
+
+.container__crossfit {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    margin: 0 10em; 
+}
+
+.horarios {
+    background-color: var(--background-color);
+}
+
+.beneficios {
+    background-color: var(--orange);
+}
+
+.planos {
+    background-color: var(--white);
+}
+
+.parceiros {
+    background-color: var(--background-color);
+    height: 25vh;
+}
+
+.time {
+    background-color: var(--orange);
+}
+
+.institucional {
+    background-color: var(--white);
+    height: 75vh;
+}
+
+.blog {
+    background-color: var(--background-color);
+}
+
+.instagram_feed {
+    background-color: var(--orange);
+}
+
+.certificados {
+    background-color: var(--white);
+    height: 25vh;
+}
+
+.contato {
+    background-color: var(--background-color);
+    height: 50vh;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
